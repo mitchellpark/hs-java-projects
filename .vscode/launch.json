@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloSelenium",
+            "request": "launch",
+            "mainClass": "Scraper.HelloSelenium",
+            "projectName": "hello_2cf258c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Game",
+            "request": "launch",
+            "mainClass": "blackjack.Game",
+            "projectName": "hello_2cf258c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Game(1)",
+            "request": "launch",
+            "mainClass": "iambad.Game",
+            "projectName": "hello_2cf258c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmileyApp",
+            "request": "launch",
+            "mainClass": "iambad.SmileyApp",
+            "projectName": "hello_2cf258c2"
+        }
+    ]
+}

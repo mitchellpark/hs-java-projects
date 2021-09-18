@@ -208,15 +208,6 @@ public class javaParser{
     public static void main(String[] args){
         javaParser j = new javaParser();
         j.printClasses();
-
-        JFrame frame = new JFrame();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocation(50, 50);
-        frame.setSize(300, 300);
-        JPanel panel = new MyPanel();
-        frame.add(panel);
-        frame.setVisible(true);
-        //j.printAll();
     }
 }
 class ToTake{

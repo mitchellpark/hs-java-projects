@@ -1,1 +1,0 @@
-SELECt * FROM testClasses where 1;
